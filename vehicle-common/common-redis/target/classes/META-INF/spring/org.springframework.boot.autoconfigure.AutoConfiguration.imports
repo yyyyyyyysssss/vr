@@ -1,0 +1,2 @@
+com.vr.common.redis.autoconfigure.RedisAutoConfiguration
+com.vr.common.redis.autoconfigure.RedissonAutoConfiguration

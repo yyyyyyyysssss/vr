@@ -1,0 +1,17 @@
+com\vr\common\mybatis\config\MyBatisNativeConfiguration$MyBaitsRuntimeHintsRegistrar.class
+com\vr\common\mybatis\config\MyBatisNativeConfiguration$MyBatisMapperTypeUtils.class
+com\vr\common\mybatis\mapper\TreeRelation.class
+com\vr\common\mybatis\entity\BaseEntity.class
+com\vr\common\mybatis\entity\BaseIdEntity.class
+com\vr\common\mybatis\config\MyBatisNativeConfiguration$MyBatisMapperFactoryBeanPostProcessor.class
+com\vr\common\mybatis\config\MyBatisNativeConfiguration$MyBatisBeanFactoryInitializationAotProcessor.class
+com\vr\common\mybatis\handler\BaseMetaHandler.class
+com\vr\common\mybatis\config\MyBatisPlusConfig.class
+com\vr\common\mybatis\mapper\SelectLineageById.class
+com\vr\common\mybatis\mapper\SelectParentById.class
+com\vr\common\mybatis\mapper\SelectChildrenByIds.class
+com\vr\common\mybatis\mapper\MySqlInjector.class
+com\vr\common\mybatis\mapper\SelectParentByIds.class
+com\vr\common\mybatis\mapper\TreeMapper.class
+com\vr\common\mybatis\mapper\SelectChildrenById.class
+com\vr\common\mybatis\config\MyBatisNativeConfiguration.class

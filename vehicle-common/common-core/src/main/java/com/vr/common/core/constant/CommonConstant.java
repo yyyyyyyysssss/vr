@@ -1,0 +1,14 @@
+package com.vr.common.core.constant;
+
+/**
+ * @Description
+ * @Author ys
+ * @Date 2025/2/8 23:31
+ */
+public interface CommonConstant {
+
+    String TRACE_ID = "x-request-id";
+
+    String USER_ID = "x-user-id";
+
+}

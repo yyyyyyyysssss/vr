@@ -1,0 +1,6 @@
+E:\project\vr\vehicle-common\common-redis\src\main\java\com\vr\common\redis\autoconfigure\RedisAutoConfiguration.java
+E:\project\vr\vehicle-common\common-redis\src\main\java\com\vr\common\redis\autoconfigure\RedissonAutoConfiguration.java
+E:\project\vr\vehicle-common\common-redis\src\main\java\com\vr\common\redis\constant\RedisCommonKey.java
+E:\project\vr\vehicle-common\common-redis\src\main\java\com\vr\common\redis\lock\DistributedLock.java
+E:\project\vr\vehicle-common\common-redis\src\main\java\com\vr\common\redis\lock\RedissonDistributedLock.java
+E:\project\vr\vehicle-common\common-redis\src\main\java\com\vr\common\redis\utils\RedisHelper.java

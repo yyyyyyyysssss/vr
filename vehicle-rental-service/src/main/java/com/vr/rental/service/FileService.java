@@ -1,0 +1,40 @@
+package com.vr.rental.service;
+
+import com.vr.rental.domain.dto.FileChunkDTO;
+import com.vr.rental.domain.dto.FileInfoDTO;
+import com.vr.rental.domain.dto.FileRangeDTO;
+import com.vr.rental.domain.vo.FileInfoVO;
+import com.vr.rental.domain.vo.FileStreamVO;
+import com.vr.rental.domain.vo.FileUploadChunkVO;
+import com.vr.rental.domain.vo.FileUploadProgressVO;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.InputStream;
+import java.time.Duration;
+
+/**
+ * @Description
+ * @Author ys
+ * @Date 2024/8/19 10:11
+ */
+public interface FileService {
+
+    String getUploadId(FileInfoDTO fileInfoDTO);
+
+    FileUploadChunkVO uploadChunk(FileChunkDTO fileChunkDTO);
+
+    FileUploadProgressVO getUploadProgress(String uploadId);
+
+    String getAccessUrl(String uploadId);
+
+    String generateTemporaryUrl(String uploadId, Duration duration);
+
+    String uploadSingleFile(MultipartFile file);
+
+    String uploadSingleFile(InputStream inputStream, String fileName, String fileType);
+
+    FileStreamVO getFileStream(String bucketName, String objectName, FileRangeDTO range);
+
+    FileInfoVO getFileInfo(String bucketName, String objectName);
+
+}
