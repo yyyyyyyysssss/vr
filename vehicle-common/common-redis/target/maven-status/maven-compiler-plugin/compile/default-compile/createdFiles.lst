@@ -1,7 +1,0 @@
-com\vr\common\redis\autoconfigure\RedissonAutoConfiguration.class
-com\vr\common\redis\constant\RedisCommonKey.class
-com\vr\common\redis\lock\DistributedLock$LockHandle.class
-com\vr\common\redis\lock\DistributedLock.class
-com\vr\common\redis\lock\RedissonDistributedLock.class
-com\vr\common\redis\utils\RedisHelper.class
-com\vr\common\redis\autoconfigure\RedisAutoConfiguration.class
